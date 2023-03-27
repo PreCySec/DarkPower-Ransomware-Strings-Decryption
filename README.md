@@ -2,8 +2,12 @@
 
 Dark Power Ransomware encrypted strings and configuration:
 
+### Full Analysis
+https://www.precysec.com/post/dark-power-technical-analysis
 
-## CyberChef Recepie
+
+
+### CyberChef Recepie
 
 Input: Base64 string
 
@@ -15,7 +19,8 @@ AES_Decrypt({'option':'Hex','string':'070e9d3dece28cd13fbcc1be4f288dbfc52ddc4912
 The script takes the entire Dark Power IV list and decrypts the given list of encrypted strings "DARK_POWER_ENC_STRINGS".
 
 
-## Decrypted Strings
+
+### Decrypted Strings
 
 Below are all decrypted Dark Power hardcoded strings and each string has its associated IV:
 
