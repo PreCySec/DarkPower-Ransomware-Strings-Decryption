@@ -2,6 +2,16 @@
 
 Dark Power Ransomware encrypted strings and configuration:
 
+
+## CyberChef Recepie:
+
+Input: Base64 string
+
+```bash
+From_Base64('A-Za-z0-9+/=',true,false)
+AES_Decrypt({'option':'Hex','string':'070e9d3dece28cd13fbcc1be4f288dbfc52ddc4912be4d8fdb097da11845f876'},{'option':'Hex','string':'d48de6d8bfdba2012e3945058fff8b66'},'CTR','Raw','Raw',{'option':'Hex','string':''},{'option':'Hex','string':''})
+```
+
 Encrypted String | Decrypted String | Associated AES IV
 ---------------- | ---------------- | -----------------
 ACCd52HjIgmOUHA= | taskmgr.exe | b'd48de6d8bfdba2012e3945058fff8b66'
