@@ -1,4 +1,4 @@
-# DarkPower-Strings-Decryption
+# DarkPower Ransomware Strings Decryption
 
 Dark Power Ransomware encrypted strings and configuration:
 
